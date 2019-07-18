@@ -16,7 +16,7 @@ Copy&Paste function into file `~/.bash_profile`
 Copy&Paste function into file `~/.bashrc`
 
 
-wget https://raw.githubusercontent.com/zeusro/Extract/master/extract.sh
+    wget https://raw.githubusercontent.com/zeusro/Extract/master/extract.sh
 
 Using command `extract`, in a terminal
 
