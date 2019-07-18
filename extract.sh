@@ -41,4 +41,24 @@ function extract {
 fi
 }
 
+function compress {
+if [ -z "$1" ] || [ -z "$2" ]; then
+    # display usage if no parameters given
+    echo "Usage: compress <path/file_name_.zip|rar|bz2|gz|tar|tbz2|tgz|Z|7z|xz|ex|tar.bz2|tar.gz|tar.xz> <path/dir_name>" 
+ else    
+    # file_name=$1
+    # dir= $2
+    case "$1" in
+      *.gz|*.tgz|*.tar)
+        tar zcvf $1 $2 ;;
+      *.bz2)
+        tar jcvf $1 $2 ;;
+      *.zip)
+        zip  $1 $2 ;;
+      *.rar)
+        rar a $1 $2 ;;
+    esac    
+fi
+}
+
 IFS=$SAVEIFS
