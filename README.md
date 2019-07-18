@@ -1,5 +1,3 @@
-
-
 Command/function `extract` in your console
 =================================
 
@@ -18,13 +16,7 @@ Copy&Paste function into file `~/.bash_profile`
 Copy&Paste function into file `~/.bashrc`
 
 
-I use hosting
--------------
-
-My hosting <a href='https://goo.gl/3KpxQI'>here</a>
-
-How it use
-----------
+wget https://raw.githubusercontent.com/zeusro/Extract/master/extract.sh
 
 Using command `extract`, in a terminal
 
